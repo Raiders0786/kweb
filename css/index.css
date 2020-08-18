@@ -1,0 +1,788 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  /* Colors: */
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-040505: #040505;
+  --unnamed-color-afce67: #afce67;
+  --unnamed-color-bdd4c2: #bdd4c2;
+  --unnamed-color-887362: #887362;
+  --unnamed-color-e35936: #e35936;
+  --unnamed-color-e79f23: #e79f23;
+  --unnamed-color-2f836c: #2f836c;
+  --unnamed-color-cee4c0: #cee4c0;
+  --unnamed-color-b23950: #b23950;
+  --unnamed-color-f08798: #f08798;
+  --unnamed-color-e0e1e1: #e0e1e1;
+  --unnamed-color-2c3e46: #2c3e46;
+  --unnamed-color-ec4219: #ec4219;
+  --unnamed-color-262626: #262626;
+  --unnamed-color-f1694b: #f1694b;
+  --unnamed-color-545454: #545454;
+  --unnamed-color-c5bfc0: #c5bfc0;
+  --unnamed-color-c8c9ca: #c8c9ca;
+  --unnamed-color-7b4f2a: #7b4f2a;
+  --unnamed-color-b25164: #b25164;
+  --unnamed-color-eae88c: #eae88c;
+  --unnamed-color-8bd4ed: #8bd4ed;
+  --unnamed-color-f0f0f0: #f0f0f0;
+  --unnamed-color-e0e0df: #e0e0df;
+  --unnamed-color-e60019: #e60019;
+  --unnamed-color-8cb150: #8cb150;
+  --unnamed-color-96c252: #96c252;
+  --unnamed-color-e52a37: #e52a37;
+  --unnamed-color-ffe67e: #ffe67e;
+  --unnamed-color-321a0f: #321a0f;
+  --unnamed-color-f29f48: #f29f48;
+  --unnamed-color-8abb2b: #8abb2b;
+  --unnamed-color-b21320: #b21320;
+  --unnamed-color-ff9e26: #ff9e26;
+  --unnamed-color-ffb500: #ffb500;
+  --unnamed-color-141414: #141414;
+  --unnamed-color-f77e0f: #f77e0f;
+  --unnamed-color-509f92: #509f92;
+  --unnamed-color-e4001b: #e4001b;
+  --unnamed-color-c1e0e4: #c1e0e4;
+  --unnamed-color-aec1ca: #aec1ca;
+  --unnamed-color-c04f56: #c04f56;
+  --unnamed-color-fff4e8: #fff4e8;
+  --unnamed-color-e4a9b0: #e4a9b0;
+  --unnamed-color-876a36: #876a36;
+  --unnamed-color-f77c15: #f77c15;
+  --unnamed-color-ffa208: #ffa208;
+}
+.text {
+  opacity: 0.55;
+}
+.section1 {
+  top: -71.0407485961914px;
+  left: -33.00890350341797px;
+  width: 2058px;
+  height: 1151px;
+  background: transparent url("../images/section1/Shapes\ Section\ 1.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+/* body {
+  opacity: 0.55;
+  z-index: -1;
+} */
+
+.leftlogo {
+  /* top: 95px;
+  left: 100px; */
+  margin: 65px 100px;
+  padding: 28px auto;
+  width: 364px;
+  height: 68px;
+  background: transparent url("../images/section1/Top\ Logo.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  opacity: 0.55;
+}
+
+.box {
+  top: 51px;
+  left: 1735px;
+  width: 109px;
+  height: 58px;
+  background: #ffa015 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  position: relative;
+}
+
+.box #rightlogo {
+  top: 53px;
+  left: 1743px;
+  width: 78px;
+  height: 54px;
+  background: transparent url("../images/section1/Language.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  /* text-align: center; */
+  /* float: left; */
+  display: inline-block;
+}
+
+.box #symbol {
+  top: 75px;
+  left: 1817px;
+  width: 19px;
+  margin: 20px auto;
+  height: 9px;
+  border: 2.5px solid var(--unnamed-color-ffffff);
+  border: 3px solid#FFFFFF;
+  opacity: 1;
+  float: right;
+  /* position: relative; */
+  /* text-align: center; */
+}
+
+.illustration {
+  position: relative;
+  top: 232px;
+  left: 1024px;
+  width: 825px;
+  height: 687px;
+  background: transparent
+    url("../images/section1/Illustration\ Landing\ Page.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  opacity: 0.55;
+}
+
+.btn {
+  font-family: "IM Fell DW Pica SC", serif;
+  position: absolute;
+  top: 827px;
+  left: 193px;
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  background: transparent
+    linear-gradient(
+      180deg,
+      #ea8898 0%,
+      #eb8595 40%,
+      #ef7e91 59%,
+      #ed7089 73%,
+      #ea5c7c 85%,
+      #e8446d 96%,
+      #e73a67 100%
+    )
+    0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  color: white;
+  opacity: 0.55;
+}
+
+/* .text {
+  position: absoulte;
+  top: 452px;
+  left: 93px;
+  width: 671px;
+  height: 274px;
+  opacity: 1;
+} */
+.header {
+  font-family: "Marko One", serif;
+  font-size: 31px;
+  position: absolute;
+  top: 652px;
+  left: 193px;
+  width: 671px;
+  height: 116px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #0a3f56;
+  opacity: 1;
+  opacity: 0.55;
+}
+.content {
+  font-size: 25px;
+  font-family: "Habibi", serif;
+  position: absolute;
+  top: 749px;
+  left: 193px;
+  width: 641px;
+  height: 142px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffa015;
+  opacity: 1;
+  opacity: 0.55;
+}
+
+.section2 {
+  top: 1080px;
+  left: -76.5407485961914px;
+  width: 2074px;
+  height: 610px;
+  background: transparent url("../images/section2/Shapes\ Section\ 2.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  opacity: 0.55;
+}
+
+.rectangle1 {
+  display: inline-block;
+  position: absolute;
+  top: 1300px;
+  left: 93px;
+  width: 500px;
+  height: 500px;
+  background: transparent url("../images/section2/Rectangle\ 4.png") 0% 0%
+    no-repeat padding-box;
+  border-radius: 150px;
+  opacity: 1;
+}
+.rectangle2 {
+  display: inline-block;
+  position: absolute;
+  top: 1300px;
+  left: 713px;
+  width: 500px;
+  height: 500px;
+  background: transparent url("../images/section2/Rectangle\ 4.png") 0% 0%
+    no-repeat padding-box;
+  border-radius: 150px;
+  opacity: 1;
+}
+.rectangle3 {
+  display: inline-block;
+  position: absolute;
+  top: 1300px;
+  left: 1323px;
+  width: 500px;
+  height: 500px;
+  background: transparent url("../images/section2/Rectangle\ 4.png") 0% 0%
+    no-repeat padding-box;
+  border-radius: 150px;
+  opacity: 1;
+}
+.insection {
+  top: 1400px;
+  position: absolute;
+  left: 237px;
+  width: 1406px;
+  height: 112px;
+  background: transparent url("../images/section2/Icon\ Section\ 2.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+.hr1 {
+  text-align: center;
+  position: absolute;
+  top: 235px;
+  font-size: 25px;
+  font-family: "Marko One", serif;
+  left: 60px;
+  width: 398px;
+  height: 45px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #134e68;
+  opacity: 1;
+}
+.hr2 {
+  text-align: center;
+  position: absolute;
+  top: 235px;
+  font-size: 23px;
+  font-family: "Marko One", serif;
+  left: 60px;
+  width: 398px;
+  height: 45px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #134e68;
+  opacity: 1;
+}
+.hr3 {
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 235px;
+  font-family: "Marko One", serif;
+  left: 60px;
+  width: 398px;
+  height: 45px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #134e68;
+  opacity: 1;
+}
+
+.ic1 {
+  text-align: center;
+  position: absolute;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  top: 315px;
+  left: 60px;
+  width: 416px;
+  height: 35px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffa015;
+  opacity: 1;
+}
+.ic2 {
+  text-align: center;
+  position: absolute;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  top: 315px;
+  left: 60px;
+  width: 416px;
+  height: 35px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffa015;
+  opacity: 1;
+}
+.ic3 {
+  text-align: center;
+  position: absolute;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  top: 315px;
+  left: 60px;
+  width: 416px;
+  height: 35px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffa015;
+  opacity: 1;
+}
+
+.cto {
+  font-family: "Marko One", serif;
+  position: absolute;
+  font-size: 32px;
+  margin: 26px 1px;
+  top: 1880px;
+  left: 829px;
+  width: 262px;
+  height: 56px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ea8898;
+  opacity: 1;
+}
+.ctt {
+  position: absolute;
+  font-family: "Marko One", serif;
+  font-size: 25px;
+  top: 1930px;
+  margin: 30px 1px;
+  left: 644px;
+  width: 632px;
+  height: 45px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #f9f6d0;
+  opacity: 1;
+}
+.section3 {
+  top: 1756px;
+  left: -108.39947509765625px;
+  width: 2174px;
+  height: 1506px;
+  background: transparent url("../images/section3/Shapes\ Section\ 3.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  opacity: 0.55;
+}
+.uimage {
+  align-items: center;
+  position: absolute;
+  top: 2050px;
+  left: 310px;
+  width: 1521px;
+  height: 905px;
+  background: transparent url("../images/section3/UI.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.logo1 {
+  position: absolute;
+  display: inline-block;
+  align-items: center;
+  top: 3025px;
+  left: 240px;
+  width: 152px;
+  height: 97px;
+  background: transparent url("../images/section3/3\ Page\ 1\ Icon.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.logo2 {
+  align-items: center;
+  position: absolute;
+  display: inline-block;
+  top: 3025px;
+  left: 556px;
+  width: 120px;
+  height: 99px;
+  background: transparent url("../images/section3/3\ Page\ 2\ Icon.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.logo3 {
+  align-items: center;
+  position: absolute;
+  display: inline-block;
+  top: 3025px;
+  left: 857px;
+  width: 131px;
+  height: 99px;
+  background: transparent url("../images/section3/3\ Page\ 3\ Icon.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.logo4 {
+  align-items: center;
+  position: absolute;
+  display: inline-block;
+  top: 3025px;
+  left: 1176px;
+  width: 97px;
+  height: 100px;
+  background: transparent url("../images/section3/3\ Page\ 4\ Icon.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.logo5 {
+  align-items: center;
+  position: absolute;
+  display: inline-block;
+  top: 3009px;
+  left: 1461px;
+  width: 106px;
+  height: 114px;
+  background: transparent url("../images/section3/3\ Page\ 5\ Icon.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.logo6 {
+  position: absolute;
+  align-items: center;
+  display: inline-block;
+  top: 3026px;
+  left: 1770px;
+  width: 120px;
+  height: 92px;
+  background: transparent url("../images/section3/3\ Page\ 6\ Icon.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+
+.lc1 {
+  text-align: center;
+  position: absolute;
+  font-family: "Marko One", serif;
+  font-size: 22px;
+  top: 110px;
+  left: -22px;
+  width: 195px;
+  height: 35px;
+  color: var(--unnamed-color-cee4c0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #cee4c0;
+  opacity: 1;
+}
+.lc2 {
+  text-align: center;
+  position: absolute;
+  font-family: "Marko One", serif;
+  font-size: 20px;
+  top: 115px;
+  left: -14px;
+  width: 195px;
+  height: 35px;
+  color: var(--unnamed-color-cee4c0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #cee4c0;
+  opacity: 1;
+}
+.lc3 {
+  text-align: center;
+  position: absolute;
+  font-family: "Marko One", serif;
+  font-size: 22px;
+  top: 115px;
+  left: -15px;
+  width: 195px;
+  height: 35px;
+  color: var(--unnamed-color-cee4c0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #cee4c0;
+  opacity: 1;
+}
+.lc4 {
+  text-align: center;
+  position: absolute;
+  font-family: "Marko One", serif;
+  font-size: 20px;
+  top: 115px;
+  left: -32px;
+  width: 195px;
+  height: 35px;
+  color: var(--unnamed-color-cee4c0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #cee4c0;
+  opacity: 1;
+}
+.lc5 {
+  text-align: center;
+  position: absolute;
+  font-family: "Marko One", serif;
+  font-size: 19px;
+  top: 131px;
+  left: -24px;
+  width: 195px;
+  height: 35px;
+  color: var(--unnamed-color-cee4c0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #cee4c0;
+  opacity: 1;
+}
+.lc6 {
+  text-align: center;
+  position: absolute;
+  font-family: "Marko One", serif;
+  font-size: 19px;
+  top: 115px;
+  left: -30px;
+  width: 195px;
+  height: 35px;
+  color: var(--unnamed-color-cee4c0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: #cee4c0;
+  opacity: 1;
+}
+
+.section4 {
+  top: 3277px;
+  left: -76.5407485961914px;
+  width: 2074px;
+  height: 622px;
+  background: transparent url("../images/section4/Shapes\ Section\ 4.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  opacity: 0.55;
+}
+
+.shf1 {
+  font-size: 41px;
+  position: absolute;
+  font-family: "Do Hyeon", sans-serif;
+  top: 3534px;
+  left: 158px;
+  width: 675px;
+  height: 56px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #0a3f56;
+  opacity: 1;
+}
+.shf2 {
+  font-size: 27px;
+  font-family: "Marko One", serif;
+  position: absolute;
+  top: 3595px;
+  left: 158px;
+  width: 837px;
+  height: 46px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffa015;
+  opacity: 1;
+}
+.nbtn {
+  font-family: "IM Fell DW Pica SC", serif;
+  position: absolute;
+  top: 3687px;
+  left: 171px;
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  background: transparent
+    linear-gradient(
+      180deg,
+      #ea8898 0%,
+      #eb8595 40%,
+      #ef7e91 59%,
+      #ed7089 73%,
+      #ea5c7c 85%,
+      #e8446d 96%,
+      #e73a67 100%
+    )
+    0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  color: white;
+}
+.nillust {
+  position: relative;
+  top: 131px;
+  left: 1024px;
+  width: 825px;
+  height: 687px;
+  background: transparent
+    url("../images/section4/Illustration\ Last\ Section.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.sfbg {
+  top: 3919px;
+  left: 0px;
+  width: 2070px;
+  height: 177px;
+  background: #0a3f56 0% 0% no-repeat padding-box;
+  opacity: 1;
+  opacity: 0.55;
+  /* z-index: 1; */
+}
+.llogo {
+  position: absolute;
+  top: 3990px;
+  left: 721px;
+  width: 479px;
+  height: 89px;
+  background: transparent url("../images/footer/Bottom\ Logo.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.fbg {
+  position: absolute;
+  top: 165px;
+  left: 400px;
+  width: 1121px;
+  height: 689px;
+  background: transparent url("../images/forum/Pop\ Up.png") 0% 0% no-repeat
+    padding-box;
+  box-shadow: 8px 8px 10px #00000029;
+  border-radius: 80px;
+  opacity: 1;
+  z-index: 1;
+}
+.flogo {
+  position: absolute;
+  top: 55px;
+  left: 501px;
+  width: 118px;
+  height: 209px;
+  background: transparent url("../images/forum/Group\ 5.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.fclose {
+  position: absolute;
+  top: 62px;
+  left: 1015px;
+  width: 43px;
+  height: 43px;
+  background: transparent url("../images/forum/ic_close_48px.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.msg {
+  position: absolute;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  top: 300px;
+  left: 177px;
+  width: 802px;
+  height: 78px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #0a3f56;
+  opacity: 1;
+}
+.cmsg1 {
+  font-family: "Marko One", serif;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+  top: 405px;
+  left: 300px;
+  width: 184px;
+  height: 79px;
+  text-align: center;
+  /* font: normal normal normal 35px/40px Carton Six; */
+  letter-spacing: 0px;
+  color: #0a3f56;
+  opacity: 1;
+}
+.cmsg2 {
+  font-weight: bolder;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Marko One", serif;
+  top: 405px;
+  left: 638px;
+  width: 348px;
+  height: 39px;
+  text-align: center;
+  /* font: normal normal normal 35px/40px Carton Six; */
+  letter-spacing: 0px;
+  color: #0a3f56;
+  opacity: 1;
+}
+.rad1 {
+  position: absolute;
+  top: 373px;
+  left: 202px;
+  width: 75px;
+  height: 71px;
+  background: transparent url("../images/forum/radio1/Radio.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  display: inline-block;
+}
+.rad2 {
+  position: absolute;
+  display: inline-block;
+  top: 373px;
+  left: 544px;
+  width: 99px;
+  height: 71px;
+  background: transparent url("../images/forum/Radio.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.email {
+  position: absolute;
+  top: 505px;
+  left: 365px;
+  width: 390px;
+  height: 55px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 0px #00000029;
+  border-radius: 150px;
+  opacity: 1;
+}
+.place {
+  position: absolute;
+  top: 516px;
+  left: 519px;
+  width: 58px;
+  height: 34px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Marko One", serif;
+  letter-spacing: 0px;
+  color: #0a3f56;
+  opacity: 0.5;
+}
+.sub {
+  position: absolute;
+  top: 585px;
+  left: 363px;
+  width: 400px;
+  height: 60px;
+  background: transparent url("../images/forum/Submit\ Pop\ Up.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
